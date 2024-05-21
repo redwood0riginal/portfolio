@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-links">
+            <img src="images/vscodelogo.png" alt="">
+            <ul class="items">
+                <li>File</li>
+                <li>Edit</li>
+                <li>View</li>
+                <li>Go</li>
+                <li>Run</li>
+                <li>Terminal</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <div class="title">
+            <p>Ahmed Tiguini - Portfolio</p>
+        </div>
+        <div class="spans">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <div class="main">
+        <div class="sidebar">
+            <div class="top">
+                <a class="active" data-cont=".home">
+                    <i class="fa-regular fa-file"></i>
+                </a>
+                <a data-cont=".github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a data-cont=".projects">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a data-cont=".contact">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
+            <div class="bottom">
+                <a data-cont=".about">
+                    <i class="fa-regular fa-circle-user"></i>
+                </a>
+                <a data-cont=".settings" class="set">
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+            </div>
+        </div>
+        <div class="explorer">
+            <h1>EXPLORER</h1>
+            <div class="portfolio">
+                <div class="port"><i class="fa-solid fa-chevron-down"></i>
+                    <p>PORTFOLIO</p>
+                </div>
+                <div class="portfolio-box">
+                    <ul>
+                        <li data-cont=".home">
+                            <a>
+                                <img src="images/jslogo.png" alt="">
+                                <p>home.js</p>
+                            </a>
+                        </li>
+                        <li data-cont=".github">
+                            <a>
+                                <img src="images/phplogo.png" alt="">
+                                <p>github.php</p>
+                            </a>
+                        </li>
+                        <li data-cont=".projects">
+                            <a>
+                                <img src="images/pythonlogo.png" alt="">
+                                <p>projects.py</p>
+                            </a>
+                        </li>
+                        <li data-cont=".contact">
+                            <a>
+                                <img src="images/yamllogo.png" alt="">
+                                <p>contact.yml</p>
+                            </a>
+                        </li>
+                        <li data-cont=".about">
+                            <a>
+                                <img src="images/htmllogo.png" alt="">
+                                <p>about.html</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="tabs-bar">
+                <div class="tabs-box">
+                    <ul>
+                        <li class="active" data-cont=".home">
+                            <a>
+                                <img src="images/jslogo.png" alt="">
+                                <p>home.js</p>
+                            </a>
+                        </li>
+                        <li data-cont=".github">
+                            <a>
+                                <img src="images/phplogo.png" alt="">
+                                <p>github.php</p>
+                            </a>
+                        </li>
+                        <li data-cont=".projects">
+                            <a>
+                                <img src="images/pythonlogo.png" alt="">
+                                <p>projects.py</p>
+                            </a>
+                        </li>
+                        <li data-cont=".contact">
+                            <a>
+                                <img src="images/yamllogo.png" alt="">
+                                <p>contact.yml</p>
+                            </a>
+                        </li>
+                        <li data-cont=".about">
+                            <a>
+                                <img src="images/htmllogo.png" alt="">
+                                <p>about.html</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="home">
+                    <div class="home-left">
+                        <div class="home-title">
+                            <h1>Ahmed Tiguini</h1>
+                            <p></p>
+                        </div>
+                        <div class="skills">
+                            <h1>Skill Set</h1>
+                            <span>Python</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Javascript</span>
+                            <span>Jquery</span>
+                            <span>PHP</span>
+                            <span>SQL</span>
+                            <span>APIs</span>
+                        </div>
+                        <div class="home-btns">
+                            <a class="first" data-cont=".about">About Me</a>
+                            <a class="second" data-cont=".contact">Contact</a>
+                        </div>
+                    </div>
+                    <div class="home-right">
+                        <img src="images/photo.jpg" alt="ahmed tiguini">
+                    </div>
+                </div>
+                <div class="about"></div>
+                <div class="contact"></div>
+                <div class="projects"></div>
+                <div class="github"></div>
+                <div class="settings"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="left-footer">
+            <a href="">
+                <i class="fa-solid fa-code-branch"></i>
+                <p style="margin-right: 8px;">main</p>
+            </a>
+            <a>
+                <i class="fa-regular fa-circle-xmark" style="margin-right: 4px;"></i>
+                <p style="margin-right: 6px;">0</p>
+                <i class="fa-solid fa-triangle-exclamation" style="margin-right: 4px;"></i>
+                <p>0</p>
+            </a>
+        </div>
+        <div class="right-footer">
+            <a href="https://www.linkedin.com/in/ahmed-tiguini-15a3321a7" target="_blank">
+                <i class="fa-brands fa-linkedin" style="margin-right: 4px;"></i>
+                <p style="margin-right: 5px;">Linkedin</p>
+            </a>
+            <a href="https://github.com/redwood0riginal" target="_blank">
+                <i class="fa-brands fa-github" style="margin-right: 4px;"></i>
+                <p style="margin-right: 5px">Github</p>
+            </a>
+            <a href="https://web.facebook.com/ahmedtiguini.at8" target="_blank">
+                <i class="fa-brands fa-facebook" style="margin-right: 4px;"></i>
+                <p style="margin-right: 5px;">Facebook</p>
+            </a>
+        </div>
+    </footer>
+</body>
+<script src="app.js"></script>
+
+</html>
